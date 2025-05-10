@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #073761, #2a3c3d);
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+}
+
+.player-container {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type=range] {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.volume {
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px 0;
+  background: #444;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: #666;
+}
